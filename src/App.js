@@ -1,13 +1,10 @@
 import './App.css';
-import Quotes from './components/quotes';
 
 function App() {
   return (
-    <>
-    
-      <Quotes/>
-
-    </>
+    <div className="App">
+      <h3>Hello World</h3>
+    </div>
   );
 }
 
