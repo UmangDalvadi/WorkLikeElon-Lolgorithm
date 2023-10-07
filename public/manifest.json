@@ -6,7 +6,10 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "Work Like Elon",
-    "default_icon": {
-      "16":"productivity_logo.jpg"    }
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
   }
 }
