@@ -1,15 +1,30 @@
 {
-  "manifest_version": 3,
-  "name": "Work Like Elon",
+  "name": "Work-Like-Elon",
   "description": "Building the Ultimate Productivity Tool",
-  "version": "1.0",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions":[
+    "declarativeNetRequest"
+  ],
+  "declarative_net_request":{
+    "rule_resources":[
+      {
+        "id":"ruleset_1",
+        "enabled":true,
+        "path":"rules.json"
+      }
+    ]
+  },
   "action": {
     "default_popup": "index.html",
-    "default_title": "Work Like Elon",
-    "icons": {
-      "16": "icone16.jpg",
-      "32": "icone32.jpg",
-      "96": "icone96.jpg"
-    }
-  }
+    "default_title": "Work-Like-Elon",
+    "default_icon": "icone16.jpg"
+  },
+  "icons":{
+    "16":"icone16.jpg",
+    "32":"icone32.jpg",
+    "96":"icone96.jpg"
+  },
+  "permission":["scripting","tabs","activeTab"],
+  "host_permissions":["https://*"]
 }
